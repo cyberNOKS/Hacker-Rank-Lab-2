@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int n,s,C,h,l,t;
+    int a,c;
+    scanf("%d%d%d%d%d%d",&n,&s,&C,&h,&l,&t);
+    
+    a=s*C*h;
+   
+    c=n*t;
+    if (a<c){
+        printf("Goa Jaayenge");
+    }
+    else{
+        printf("Padhai Karenge");
+    }
+    
+    return 0;
+}
